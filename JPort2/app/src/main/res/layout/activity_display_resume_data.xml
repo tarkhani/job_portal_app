@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_sqlite_Resume_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context="com.example.jport.activities.DisplaySQLiteResumeDataActivity">
+
+
+    <LinearLayout
+        android:id="@+id/Rsearch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditTextRSearchCountry"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_Country"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="0"
+            android:layout_marginRight="30dp"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditTextRSearchProvinence"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_Provinence"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"/>
+
+        <ImageButton
+            android:id="@+id/searchResume"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:background="@color/Tranks"
+            app:srcCompat="@drawable/ic_search_black_24dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rsearch_layout"
+        android:layout_marginBottom="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Add_UpadteResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorLightBlue"
+        android:text="My Resume !" />
+
+
+</RelativeLayout>

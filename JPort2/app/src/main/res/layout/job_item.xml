@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Company :  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+    <TextView
+        android:id="@+id/textViewCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Company "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Title: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCompany"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="Country: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="Country "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:text="Province : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewProvince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCountry"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="Province"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:text="Required years of experience : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewRequiredYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProvince"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="Required years "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:text="Salary : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewRequiredYear"
+        android:layout_toRightOf="@+id/textView6"
+        android:text="Salary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView6"
+        android:text="phone : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSalary"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="phone"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView7"
+        android:text="Note : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPhone"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="Note"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+
+
+</RelativeLayout>
